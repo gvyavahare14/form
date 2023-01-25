@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+
+
+    <style>
+        form label {
+            color: orangered;
+            font-size: 20px;
+            font-style: inherit;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <label for="fname">First Name:</label>
+        <br>
+        <input type="text" id="fname" placeholder="please enter your First name" name="Firstname" required
+            style="width: 170px; height: 20px;">
+        <br>
+        <br>
+
+        <label for="faname">Fathers name:</label>
+        <br>
+        <input type="text" id="faname" placeholder="Please enter your Fathers name" name="Middle name" required
+            style="width: 190px; height: 20px;">
+
+        <br>
+        <br>
+
+        <label for="Lname">Last name:</label>
+        <br>
+        <input type="text" id="Lname" name="last name" placeholder="please enter your last name" required
+            style="width: 164px; height: 20px;">
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="Email" placeholder="please enter your email" required
+            style="width: 139px;height: 20px">
+        <br>
+        <br>
+        <label for="contact">Contact No:</label>
+        <br>
+        <input type="tel" id="contact" name="Contact No." placeholder="please enter your phone no." required
+            style="width:195px; height: 20px">
+        <br>
+        <br>
+
+        <label for="course">Please select your course: </label>
+        <br>
+        <select id="course" required>
+
+            <option value="">please select</option>
+            <option value="">MBA</option>
+            <option value="">BSC(CS)</option>
+            <option value="">BCA</option>
+            <option value="">B.Tech</option>
+        </select>
+        <hr>
+        <input type="radio" name="gender" value="male" required> Male
+        <br>
+        <input type="radio" name="gender" value="female" required> Female
+        <br>
+        <input type="radio" name="gender" value="other" required>Other
+        <hr>
+        <input type="submit" value="submit"
+            style="width: 75px;height: 25px; background-color: rgb(37, 159, 147); font-size: 18px;">
+        <input type="reset" value="reset "
+            style="width: 75px;height: 25px; background-color: rgb(37, 159, 147); font-size: 18px;">
+
+    </form>
+
+</body>
+
+</html>
